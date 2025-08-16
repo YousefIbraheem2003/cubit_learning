@@ -14,6 +14,7 @@ class _SignupScreenState extends State<SignupScreen> {
   TextEditingController userName = TextEditingController();
   TextEditingController password = TextEditingController();
   TextEditingController reEnterPaswword = TextEditingController();
+  @override
   void dispose() {
     userName.dispose();
     password.dispose();
