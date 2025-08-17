@@ -14,7 +14,7 @@ class GetConversionRate {
       ExchangeModel exchangeModel = ExchangeModel.fromJson(data);
       return exchangeModel;
     } catch (e) {
-      print('hi');
+      print('error');
     }
     return ExchangeModel(conversionRate: 12, baseCode: '55', targetCode: 'tt');
   }
